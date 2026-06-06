@@ -1,0 +1,23 @@
+header{
+	color:white;
+	font-family:arial black;
+}
+h1{
+	color:white;
+	font-family:arial black;
+	}
+	
+.container{
+	background-color:black;
+	border:2px;
+	padding:20px;
+	display:flex;
+}
+
+.item{
+	background-color:black;
+	border:2px;
+	padding:20px
+	
+	
+}

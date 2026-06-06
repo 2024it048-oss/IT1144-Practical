@@ -1,0 +1,13 @@
+*{font-family:sans-serif;}
+
+.header{display:flex;overflow-y:scroll;}
+.logo{flex:1;margin-left:40px;}
+#logoimage{width:100px;margin-left:50px;}
+#uniname{text-align:cemter;}
+.title{flex:6;}
+
+.nav-Image img{width:100px%;}
+.navigationBar li{float:left;list-style:none;margin:20px 20px 20px 20px;}
+.navigationBar li a{text-decoration:none;}
+.navigationBar li a:hover{background-color:#474769; padding:10px;color:white;}
+.navigationBar {margin-left:500px;}
