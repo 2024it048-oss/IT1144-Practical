@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reservation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+	<a href="reservation.html"class="logo reservation-logo">
+		<img src="logo1.png" alt="Sunrise Cafe Logo">
+	</a>
+		
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="reservation.html">Reservation</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+		<h2>Table Reservation<h2>
+		<br><br>
+		<form>
+			<input type="text" id="name" placeholder="Name">
+			<input type="text" id="phone" placeholder="Phone">
+			<input type="date" id="date">
+			
+			<select>
+				<option>1 Guest</option>
+				<option>2 Guests</option>
+				<option>3 Guests</option>
+				<option>4 Guests</option>
+			</select>
+			
+			<button type="button" onclick="reserveTable()">
+			Reserve
+			</button>
+		</form>
+	</section>
+	<script src="script.js"></script>
+
+	<footer>
+		<p>@2026 Sunrise Cafe</p>
+	</footer>
+	
+</body>
+</html>
